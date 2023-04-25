@@ -1,0 +1,42 @@
+#login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 2rem;
+}
+
+#login .form {
+    background-color: #a8a8a8;
+    width: 100%;
+    max-width: 480px;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#login .field {
+    padding-bottom: 0.5rem ;
+}
+
+#login .field label {
+    display: block;
+}
+
+#login .field input {
+    width: 100%;
+    border-radius: 3px;
+}
+
+#login .actions {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+#login .tipo {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+
